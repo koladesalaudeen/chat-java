@@ -43,6 +43,7 @@ public class ChatClient {
     private class ConsoleReader implements Runnable {
         @Override
         public void run() {
+            //Input from clients' keyboard
             BufferedReader consoleInput = new BufferedReader(new InputStreamReader(System.in));
             try {
                 while (true) {
